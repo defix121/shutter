@@ -16,7 +16,7 @@ lose = font1.render('YOU LOSE!', True, (180, 0, 0))
 
 img_back = "kosmo.png"
 img_hero = "rocket.png"
-img_enemy = "baxa.jpg"
+img_enemy = "nlo.png"
 img_bullet = "nagets.png"
 
 clock = time.Clock()
