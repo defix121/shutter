@@ -3,9 +3,9 @@ from random import randint
 import time as pytime
 
 mixer.init()
-mixer.music.load('music.ogg')
+mixer.music.load("assets\\sounds\\music.ogg")
 mixer_music.play()
-fire_sound = mixer.Sound('shutt.ogg')
+fire_sound = mixer.Sound("assets\\sounds\\shutt.ogg")
 
 
 font.init()
@@ -15,10 +15,10 @@ win = font1.render('YOU WIN!', True, (255, 255, 255))
 lose = font1.render('YOU LOSE!', True, (180, 0, 0))
 
 
-img_back = "kosmo.png"
-img_hero = "rocket.png"
-img_enemy = "nlo.png"
-img_bullet = "nagets.png"
+img_back = "assets\\pictures\\kosmo.png"
+img_hero = "assets\\pictures\\rocket.png"
+img_enemy = "assets\\pictures\\nlo.png"
+img_bullet = "assets\\pictures\\nagets.png"
 
 clock = time.Clock()
 FPS = 60
